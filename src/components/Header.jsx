@@ -5,6 +5,8 @@ import './Header.css';
 function Header() {
   return (
     <header className="row block center">
+      <h1>Hijinks and Wahoos</h1>
+      <p>Shipping is free for orders over $250.00!</p>
       <nav>
         <li className="navbar">
           <Link to="/">Home</Link>
