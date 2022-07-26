@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-function Product({ product }) {
+function Product({ product, onAdd }) {
   return (
     <div>
       <img className="small" src={product.image} alt={product.name} />
@@ -11,7 +11,7 @@ function Product({ product }) {
         {product.price}
       </div>
       <div>
-        <button type="button" className="cart-btn">Add to Cart</button>
+        <button onClick={onAdd} type="button" className="cart-btn">Add to Cart</button>
       </div>
     </div>
   );
