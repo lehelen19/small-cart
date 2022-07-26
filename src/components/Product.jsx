@@ -11,7 +11,7 @@ function Product({ product, onAdd }) {
         {product.price}
       </div>
       <div>
-        <button onClick={onAdd} type="button" className="cart-btn">Add to Cart</button>
+        <button onClick={() => onAdd(product)} type="button" className="cart-btn">Add to Cart</button>
       </div>
     </div>
   );
