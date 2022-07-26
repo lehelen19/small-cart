@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       id: '1',
-      name: 'Calvin and the Chipmunks ticket',
+      name: 'Alvin and the Chipmunks ticket',
       price: 1000,
       image: 'https://i.ytimg.com/vi/pJ0MB4Et5TI/maxresdefault.jpg',
     },
