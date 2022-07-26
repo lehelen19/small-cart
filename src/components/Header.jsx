@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -12,7 +13,9 @@ function Header() {
           <Link to="/">Home</Link>
         </li>
         <li className="navbar">
-          <Link to="/cart">Cart</Link>
+          <Link to="/">
+            Cart
+          </Link>
         </li>
       </nav>
     </header>

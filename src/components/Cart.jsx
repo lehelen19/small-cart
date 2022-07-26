@@ -4,7 +4,7 @@ import React from 'react';
 
 function Cart({ cartItems, onAdd, onRemove }) {
   const cartTotal = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
-  const tax = cartTotal * 7.25;
+  const tax = cartTotal * 0.0725;
   const shippingCost = cartTotal > 250 ? 0 : 50;
   const finalTotal = cartTotal + tax + shippingCost;
 

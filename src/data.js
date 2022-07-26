@@ -15,7 +15,7 @@ const data = {
     {
       id: '3',
       name: '1 game of Valorant with a Radiant coach',
-      price: 2,
+      price: 150,
       image: 'https://i.ytimg.com/vi/CWxVwuzgk34/maxresdefault.jpg',
     },
   ],
