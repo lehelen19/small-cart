@@ -2,9 +2,9 @@ import React from 'react';
 
 function Cart() {
   return (
-    <div>
-      Hello from cart!
-    </div>
+    <aside className="block col-1">
+      <h2>Cart Items</h2>
+    </aside>
   );
 }
 

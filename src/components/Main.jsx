@@ -2,9 +2,12 @@ import React from 'react';
 
 function Main() {
   return (
-    <div>
-      Hello from main!
-    </div>
+    <main className="block col-2">
+      <h2>Products</h2>
+      <div className="row">
+        Hi
+      </div>
+    </main>
   );
 }
 
